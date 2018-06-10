@@ -15,3 +15,6 @@ testData.txt | **Test data**
 featureTypes.txt | **List of features used**
 
 The data matrices are stored in Matrix Market Format, a format for sparse matrices. Each line is is a tuple of three elements for instance ID, feature ID, and feature value. Meta information for each feature is provided in `featureTypes.txt`. The features are strings of one, two, or three words (n-grams). The feature values correspond roughly to how often each word appears in the review. All rows have also been normalized.
+
+Link for the Kaggle Competition
+`https://www.kaggle.com/c/hw1-wine-goodness-cse512-spr18/leaderboard`
